@@ -1,0 +1,66 @@
+@font-face {
+  font-family: beautifulPeople;
+  src: url("./font/BeautifulPeoplePersonalUse-dE0g.ttf");
+}
+@font-face {
+  font-family: magnoliaScript;
+  src: url("./font/MagnoliaScript.otf");
+}
+.contact-plat, .home-plat {
+  border-radius: 25px;
+  border-color: white;
+  border-width: thick;
+  border: solid;
+  color: white;
+  font-family: beautifulPeople;
+}
+.contact-plat h1, .home-plat h1, .contact-plat h2, .home-plat h2 {
+  font-size: 3rem;
+}
+.contact-plat h3, .home-plat h3 {
+  font-size: 1.5rem;
+  line-height: 150%;
+}
+.contact-plat .number, .home-plat .number {
+  font-family: magnoliaScript;
+}
+
+body, html {
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  background-attachment: fixed;
+}
+section .separator {
+  background-color: rgba(255, 255, 255, 0.85);
+  height: 2rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+}
+
+#home {
+  background-image: url("./backgrounds/home.jpg");
+}
+
+#contact {
+  background-image: url("./backgrounds/contact.jpg");
+}
+
+.home-plat {
+  background-color: rgba(0, 154, 23, 0.85);
+}
+
+.contact-plat {
+  background-color: rgba(50, 0, 13, 0.85);
+}
+.contact-plat .contact-icon {
+  height: 1.5rem;
+}
+
+/*# sourceMappingURL=index.css.map */

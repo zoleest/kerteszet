@@ -1,0 +1,55 @@
+@font-face {
+  font-family: beautifulPeople;
+  src: url('./font/BeautifulPeoplePersonalUse-dE0g.ttf');
+}
+
+@font-face {
+  font-family: magnoliaScript;
+  src: url('./font/MagnoliaScript.otf');
+}
+
+$plat-border-radius: 25px;
+$plat-border-color: white;
+$plat-border-width: thick;
+$plat-text-color: white;
+$plat-font-family: beautifulPeople;
+$plat-number-font-family: magnoliaScript;
+$plat-title-text-size: 3rem;
+$plat-h3-text-size: 1.5rem;
+$plat-h3-line-height: 150%;
+
+
+$home-plat-bg-color: rgba(0,154,23, 0.85);
+$contact-plat-bg-color: rgba(50,0,13, 0.85);
+
+$separator-color: rgba(255,255,255,0.85);
+$separator-size: 2rem;
+$separator-negative-margin: -1rem;
+$separator-positive-margin: 1rem;
+
+
+
+%plat{
+  border-radius: $plat-border-radius;
+  border-color:  $plat-border-color;
+  border-width: $plat-border-width ;
+  border: solid;
+  color: $plat-text-color;
+  font-family: $plat-font-family;
+
+  h1, h2{
+    font-size: $plat-title-text-size;
+
+  }
+
+  h3{
+    font-size: $plat-h3-text-size;
+    line-height: $plat-h3-line-height;
+  }
+
+  .number{
+    font-family: $plat-number-font-family;
+  }
+
+}
+

@@ -1,0 +1,54 @@
+@import 'variables';
+
+body, html{
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+section{
+
+  background-attachment: fixed;
+
+  .separator{
+    background-color: $separator-color;
+    height: $separator-size;
+    margin-left: $separator-negative-margin;
+    margin-right: $separator-negative-margin;
+    margin-top: $separator-positive-margin;
+    margin-bottom: $separator-negative-margin;
+         }
+
+}
+
+#home{
+
+  background-image: url("./backgrounds/home.jpg");
+
+}
+
+#contact{
+
+  background-image: url("./backgrounds/contact.jpg");
+
+}
+
+
+.home-plat{
+  @extend %plat;
+  background-color: $home-plat-bg-color;
+}
+
+.contact-plat{
+  @extend %plat;
+  background-color: $contact-plat-bg-color;
+
+  .contact-icon{
+    height:$plat-h3-text-size;
+  }
+
+
+}
+
